@@ -1,7 +1,7 @@
 ## HIER DIGITAL CODING TEST
 
 #### SOAL 1
-Level : Intermediate
+Level : Intermediate,
 Waktu : 60 menit
 
 > Ada sebuah tangga dengan N langkah. Anda bisa menaiki 1 - 2 langkah sekaligus.  Buatlah fungsi untuk mentukan urutan2 langkah tersebut. 
@@ -14,7 +14,7 @@ Output : [1, 1, 1], [1, 2], [2, 1]
 Output : [1, 1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2]
 
 #### SOAL 2
-Level : Intermediate
+Level : Intermediate,
 Waktu : 90 Menit
 
 > Buatkan program bank sederhana menggunakan **Laravel** terbaru. Feature  :
