@@ -1,6 +1,21 @@
 ## HIER DIGITAL CODING TEST
 
 #### SOAL 1
+Level Beginner
+Waktu : 20 menit
+
+> Buatlah program untuk mencari huruf pertama yang duplikat. 
+
+##### Contoh 1: 
+
+> Input : ABCA, Output : A
+
+##### Contoh 2:
+
+> Input : ABCDEBE, Output : B
+
+
+#### SOAL 2
 Level : Intermediate,
 Waktu : 60 menit
 
@@ -13,7 +28,8 @@ Output : [1, 1, 1], [1, 2], [2, 1]
 > Input : 4
 Output : [1, 1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2]
 
-#### SOAL 2
+
+#### SOAL 3
 Level : Intermediate,
 Waktu : 90 Menit
 
