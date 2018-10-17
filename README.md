@@ -1,9 +1,6 @@
 ## HIER DIGITAL CODING TEST
 
 #### SOAL 1
-Level Beginner
-Waktu : 20 menit
-
 > Buatlah program untuk mencari huruf pertama yang duplikat. 
 
 ##### Contoh 1: 
@@ -14,30 +11,22 @@ Waktu : 20 menit
 
 > Input : ABCDEBE, Output : B
 
-
 #### SOAL 2
-Level : Intermediate,
-Waktu : 60 menit
+> Buatlah program buble sort tanpa menggunakan temporary variable
 
-> Ada sebuah tangga dengan N langkah. Anda bisa menaiki 1 - 2 langkah sekaligus.  Buatlah fungsi untuk mentukan urutan2 langkah tersebut. 
-Misalnya N = 3 maka ada 3 kemungkinan cara untuk menaiki tangga
-
-##### Contoh 1 : 
-
-> Input : 3, Output : [1, 1, 1], [1, 2], [2, 1]
-
-##### Contoh 2 :
-> Input : 4, Output : [1, 1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2]
-
-##### Contoh 3
-> Input : 5, Output : [1, 1, 1, 1], [1, 1, 1, 2], [1, 1, 2, 1], [1, 2, 1, 1], [1, 2, 2], [2, 1, 1, 1], [2, 2, 1], [2, 1, 2]
 #### SOAL 3
-Level : Intermediate,
-Waktu : 90 Menit
 
 > Buatkan program bank sederhana menggunakan **Laravel** terbaru. Feature  :
-- Login, Register, Topup,  Withdraw & laporan mutasi
-- Saran untuk pengembangan program tersebut.
+- Login, Register, Topup,  Withdraw, Transfer & laporan mutasi
+- Transaksi database dengan exception handler dibuat sendiri, untuk meng-handle error database :
+- 1062 (‘Duplicate entry exception’)
+- 1064 (‘Not null exception’)
+- Jika ada error 1062 dari database maka sistem akan me-return sebuah view (polos) dengan error message “Duplicate entry” dengan http header response code 403 dan, dan sama halnya pada error 1064 dengan sebuah view (polos) dengan http header response code 422 dan error message “Some fields are required”.
+
+**Optional**
+- membuat Unit Test menjadi nilai tambah
+- membuat design yg bagus menjadi nilai tambah
+- membuat fungsi dari pihak bank menjadi nilai tambah
 
 
 
