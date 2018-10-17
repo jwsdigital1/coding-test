@@ -21,14 +21,16 @@ Waktu : 60 menit
 
 > Ada sebuah tangga dengan N langkah. Anda bisa menaiki 1 - 2 langkah sekaligus.  Buatlah fungsi untuk mentukan urutan2 langkah tersebut. 
 Misalnya N = 3 maka ada 3 kemungkinan cara untuk menaiki tangga
-Contoh : 
-Input : 3
-Output : [1, 1, 1], [1, 2], [2, 1]
 
-> Input : 4
-Output : [1, 1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2]
+##### Contoh 1 : 
 
+> Input : 3, Output : [1, 1, 1], [1, 2], [2, 1]
 
+##### Contoh 2 :
+> Input : 4, Output : [1, 1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2]
+
+##### Contoh 3
+> Input : 5, Output : [1, 1, 1, 1], [1, 1, 1, 2], [1, 1, 2, 1], [1, 2, 1, 1], [1, 2, 2], [2, 1, 1, 1], [2, 2, 1], [2, 1, 2]
 #### SOAL 3
 Level : Intermediate,
 Waktu : 90 Menit
