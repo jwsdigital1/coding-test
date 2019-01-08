@@ -30,9 +30,9 @@ function bubble_sort($arr){
 		for ($j=0; $j < $length-1; $j++) { 
 			if( $j < $length && $arr[$j] > $arr[$j+1] ) { // if the number greater than next number
 				// swap number without temp. variable
-				$total = $arr[$j] + $arr[$j+1];
-				$arr[$j] = $total - $arr[$j]; 
-				$arr[$j+1] = $total - $arr[$j+1];
+				$arr[$j] = $arr[$j] + $arr[$j+1];
+				$arr[$j+1] = $arr[$j] - $arr[$j+1]; 
+				$arr[$j] = $arr[$j] - $arr[$j+1];
 			}
 		}
 
